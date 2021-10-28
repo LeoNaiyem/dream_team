@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+.header{
+    position: fixed;
+    top: 0;
+    padding: .5rem 2rem;
+    background-color: black;
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+}
+.logo{
+    margin-right: 20px;
+}
+.logo a{
+    font-size: 40px;
+    color: #0cd5d5;
+    font-family: 'Cookie', cursive;
+    text-decoration: none;
+    transition: color 2s ease;    
+}
+.logo a:hover{
+    color: #8c27ff;
+}
+.links ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 0px;
+}
+.links ul li a{
+    display: block;
+    padding: 8px 15px;
+    color: gray;
+    text-decoration: none;
+    border-radius:5px;   
+}
+.links ul li a:hover{
+    color: whitesmoke;
+}
+.log-in{
+   margin-right: 55px;
+}
+.log-in a{
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #08aeae;
+    border: 2px solid #08aeae;
+    color: black;
+    transition: background-color 1s ease;
+}
+.log-in a:hover{
+    background-color: transparent;
+    color: lightgray;
+
+}

@@ -1,0 +1,7 @@
+.team-player{
+    margin-bottom: 5px;
+}
+.team-player-details{
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,6 +1,11 @@
-.App {
+body{
+background-image: linear-gradient(90deg, #1b1b1d, #272515);
+color: whitesmoke;
+}
+/* .App {
   text-align: center;
 }
+
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +40,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
