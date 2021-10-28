@@ -5,7 +5,6 @@ import { faUserPlus } from '@fortawesome/free-solid-svg-icons'
 import { Button } from 'react-bootstrap';
 
 const Player = (props) => {
-    // console.log(props.player)
     const { id, name, age, photo, nation, club, position, market_value, salary } = props.player;
     const handleAddButton = props.handleAddButton;
     return (

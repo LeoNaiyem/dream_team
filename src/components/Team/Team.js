@@ -2,10 +2,7 @@ import React from 'react';
 import './Team.css'
 
 const Team = (props) => {
-    console.log(props.teamPlayer)
-    const {name, photo, salary} = props.teamPlayer;
-    console.log(name, photo, salary)
-
+    const {name, salary} = props.teamPlayer;
     return (
         <div className='team-player' >
             <div className="team-player-details">
