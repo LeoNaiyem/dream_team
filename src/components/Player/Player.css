@@ -45,23 +45,16 @@
     width: 60%;
     padding: 1rem;
     color: black;
+    font-size: 15px;
+}
+.player-details p{
+    margin-bottom: 0;
 }
 .player-details p span{
     color: black;
     font-weight: 600;
 }
 .add-button{
-    margin-top: 25px;
-    border-radius: 5px;
-    color: lightgray;
-    background-color: #058705;
-    border: 1px solid #058705;
-    outline: none;
-    padding: 8px 10px;
-    transition: background-color 1s ease;
-}
-.add-button:hover{
-    background-color: transparent;
-
+    margin-top: 15px;
 }
 

@@ -2,6 +2,7 @@ import React from 'react';
 import './Player.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faUserPlus } from '@fortawesome/free-solid-svg-icons'
+import { Button } from 'react-bootstrap';
 
 const Player = (props) => {
     // console.log(props.player)
@@ -23,7 +24,9 @@ const Player = (props) => {
                         <p><span>Age: </span> {age} </p>
                         <p><span>Market Value: </span> €{market_value} </p>
                         <p><span>Salary(weekly): </span> ${salary} </p>
-                        <button onClick = {()=> handleAddButton(props.player) } className="add-button"> <FontAwesomeIcon icon={faUserPlus} /> Add To Team</button>
+                        {/* <button onClick = {()=> handleAddButton(props.player) } className="add-button"> <FontAwesomeIcon icon={faUserPlus} /> Add To Team</button> */}
+                        <Button onClick = {()=> handleAddButton(props.player) }  className="add-button"  variant="success"><FontAwesomeIcon icon={faUserPlus} /> Add To Team</Button>{' '}
+
                     </div>
                 </div>
             </div>

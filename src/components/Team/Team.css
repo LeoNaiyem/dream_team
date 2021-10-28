@@ -5,3 +5,7 @@
     display: flex;
     justify-content: space-between;
 }
+
+.team-player-details p{
+    margin-bottom: 0px;
+}

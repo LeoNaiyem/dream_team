@@ -8,13 +8,13 @@
     flex-wrap: wrap;
     width: 80%;
     margin-right: 20px;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 .team{
     box-sizing: border-box;
     width: 20%;
     min-height: 85vh;
-    margin-top: 40px;
+    margin-top: 60px;
     background-color: black;
     color: lightgray;
     position: fixed;

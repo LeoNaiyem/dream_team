@@ -2,6 +2,11 @@ body{
 background-image: linear-gradient(90deg, #1b1b1d, #272515);
 color: whitesmoke;
 }
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 /* .App {
   text-align: center;
 }
